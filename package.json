@@ -1,0 +1,25 @@
+{
+  "name": "ImageSimilarity",
+  "version": "0.0.0",
+  "description": "Compute the similarity between any two images using Perceptual Hashing algorithm.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodejs app.js 5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://coding.net/handsome/ImageSimilarity.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "similarity"
+  ],
+  "author": "Liang Shuailong",
+  "license": "GPL v3",
+  "dependencies": {
+    "debug": "~2.0.0",
+    "gm": "*",
+    "pngjs":"*"
+  }
+}
